@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.menu-item {
+  position: relative;
+}
+
+.menu-item a {
+  font-family: $font-sans;
+  font-weight: 600;
+  color: $color2;
+}

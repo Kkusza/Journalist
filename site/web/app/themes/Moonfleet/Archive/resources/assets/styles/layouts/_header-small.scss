@@ -1,0 +1,35 @@
+.banner-small .nav li {
+  @extend .nav-item;
+}
+
+.banner-small .nav a {
+  @extend .nav-link;
+}
+
+.banner-small {
+  height: 100px;
+  padding: 10px;
+
+  /* text */
+
+  text-align: center;
+
+  .brand {
+    display: block;
+    padding-bottom: 10px;
+
+    /* font */
+    font-size: $step-up-2;
+    font-family: $font-serif;
+    font-weight: 600;
+    color: $color7;
+
+    /* Decoration */
+
+    border-bottom: $post-border;
+  }
+
+  .brand:hover {
+    text-decoration: none;
+  }
+}

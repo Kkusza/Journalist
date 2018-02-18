@@ -1,0 +1,28 @@
+.banner .nav li {
+  @extend .nav-item;
+}
+
+.banner .nav a {
+  @extend .nav-link;
+}
+
+.banner {
+  height: 400px;
+  padding-top: 40px;
+
+  /* text */
+
+  text-align: center;
+
+  .brand {
+    /* font */
+    font-size: 5em;
+    font-family: $font-serif;
+    font-weight: 600;
+    color: $color7;
+  }
+
+  .brand:hover {
+    text-decoration: none;
+  }
+}

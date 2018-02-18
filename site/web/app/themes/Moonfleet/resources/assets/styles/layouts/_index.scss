@@ -1,0 +1,28 @@
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+
+  .post {
+    padding: 0 20px;
+    margin-bottom: 40px;
+    width: 100%;
+    padding-right: 10px;
+    border-bottom: $post-border;
+
+    @include breakpoint(sm) {
+      width: 33.333%;
+      border-bottom: none;
+      border-right: $post-border;
+    }
+
+    .entry-title a {
+      color: $color5 !important;
+    }
+  }
+
+  .post:nth-child(3n+1) {
+    @include breakpoint(sm) {
+      border-left: $post-border;
+    }
+  }
+}
